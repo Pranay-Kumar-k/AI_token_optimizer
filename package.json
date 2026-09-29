@@ -1,0 +1,33 @@
+{
+  "name": "ai_token_optimizer",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Pranay-Kumar-k/AI_token_optimizer#readme",
+  "bugs": {
+    "url": "https://github.com/Pranay-Kumar-k/AI_token_optimizer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pranay-Kumar-k/AI_token_optimizer.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@dqbd/tiktoken": "^1.0.22",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1",
+    "llm-distillery": "^1.2.0",
+    "node-summarizer": "^1.0.7",
+    "openai": "^7.23.0"
+  },
+  "allowScripts": {
+    "node-summarizer@1.0.7": true,
+    "@dqbd/tiktoken@1.0.22": true
+  }
+}
