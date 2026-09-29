@@ -1,0 +1,7 @@
+POST http://localhost:3000/analyze HTTP/1.1
+Content-Type: application/json
+
+{
+    "prompt": "Help me design the system architecture for my application. App type: [WEB APP/MOBILE/API/SAAS]. Core features: [LIST 5-10]. Users at launch: [NUMBER]. Users at scale: [NUMBER]. Budget: [BOOTSTRAP/FUNDED]. Design: high-level architecture, frontend, backend, database, third-party services, hosting plan, how it scales from 100 to 100,000 users, top 3 technical risks.",
+    "model": "gpt-3.5-turbo"
+}
